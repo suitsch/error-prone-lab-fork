@@ -11,7 +11,6 @@ public class BadNames {
 
   public static void main(String[] args) {
     String m = "This is a message";
-
     BadNames b = new BadNames();
     b.foo(m);
   }
