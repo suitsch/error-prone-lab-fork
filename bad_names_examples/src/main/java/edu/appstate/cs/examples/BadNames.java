@@ -13,5 +13,12 @@ public class BadNames {
     String m = "This is a message";
     BadNames b = new BadNames();
     b.foo(m);
+    String thisNameIsTooLongForGoodPractice = "This name is way too long and should be avoided";
+  }
+
+  public void methodWithAVeryLongNameThatExceedsTheRecommendedLength(String p, String q) {
+
+    System.out.println(p + " " + q);
+    // This method name is also too long and should be avoided.
   }
 }
